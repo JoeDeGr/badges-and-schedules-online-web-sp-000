@@ -18,6 +18,6 @@ room_assign
 end
 
 def printer
-  puts batch_badge_creator
+  puts batch_badge_creator.badge
   puts assign_rooms
 end
