@@ -20,8 +20,8 @@ room_assign
 end
 binding.pry
 def printer
-    puts "#{batch_badge_creator(names)}"
+    batch_badge_creator()
 
-    puts "#{assign_rooms(names)}"
+  assign_rooms()
 
 end
