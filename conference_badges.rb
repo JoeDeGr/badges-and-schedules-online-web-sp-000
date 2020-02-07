@@ -21,7 +21,7 @@ end
 
 def printer
     puts "#{batch_badge_creator(names)}"
-    binding.pry
+binding.pry
     puts "#{assign_rooms(names)}"
 
 end
